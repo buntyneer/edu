@@ -2,7 +2,7 @@
 import React, { useState, useEffect, createContext, useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { createPageUrl } from "@/utils";
-import ErrorBoundary from './components/ErrorBoundary';
+import ErrorBoundary from "../components/ErrorBoundary.jsx";
 import { User, School } from "@/api/entities";
 import {
   School as SchoolIcon,
