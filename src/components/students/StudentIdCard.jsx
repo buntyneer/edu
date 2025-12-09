@@ -3,7 +3,7 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { School, Download } from "lucide-react";
-import { toast } from "react-hot-toast";
+import { toast } from "sonner";
 
 export default function StudentIdCard({ student, schoolName, onOpenChange, schoolLogo, instituteType }) {
   if (!student) return null;

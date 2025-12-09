@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Holiday } from "@/api/entities";
-import { useAppData } from "../layout";
+import { useAppData } from "./Layout.jsx";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Plus, Edit, Trash2, Calendar } from "lucide-react";

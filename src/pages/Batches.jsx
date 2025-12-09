@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { Batch } from "@/api/entities";
-import { useAppData } from "../Layout.jsx";
+import { useAppData } from "./Layout.jsx";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Plus, Edit, Trash2, Clock, Users } from "lucide-react";

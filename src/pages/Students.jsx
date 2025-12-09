@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo, useEffect, useCallback } from "react";
 import { Student, Batch } from "@/api/entities";
-import { useAppData } from "../layout";
+import { useAppData } from "./Layout.jsx";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Plus, Upload, Download, Search, Link as LinkIcon, RefreshCw, Users, Filter } from "lucide-react";

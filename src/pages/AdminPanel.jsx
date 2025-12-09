@@ -24,7 +24,7 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Search, RefreshCw, Key, Mail, Calendar, AlertCircle, CheckCircle, Clock, Trash2, History, Eye, Check, X } from "lucide-react";
 import { toast } from "sonner";
-import { base44 } from "@/api/base44Client";
+import { SendEmail } from "@/api/integrations";
 import {
   AlertDialog,
   AlertDialogAction,
@@ -201,7 +201,7 @@ export default function AdminPanel() {
                          keyType === "12M" ? "12 Months (₹5,999)" : 
                          `Custom Plan (${customDuration} ${customUnit === "H" ? "Hours" : customUnit === "D" ? "Days" : "Months"})`;
       
-      await base44.integrations.Core.SendEmail({
+      await SendEmail({
         to: selectedSchool.principal_email,
         subject: `Your ${selectedSchool.school_name} License Key - Edumanege`,
         body: `Dear ${selectedSchool.principal_name},

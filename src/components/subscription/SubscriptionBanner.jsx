@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { Button } from "@/components/ui/button";
 import { AlertTriangle, Zap, Crown } from "lucide-react";
-import { useAppData } from "../../layout";
+import { useAppData } from "@/pages/Layout.jsx";
 
 export default function SubscriptionBanner() {
   const { school } = useAppData() || {};

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { School, User } from "@/api/entities";
 import { UploadFile } from "@/api/integrations";
-import { useAppData } from "../layout";
+import { useAppData } from "./Layout.jsx";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";

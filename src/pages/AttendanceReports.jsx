@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo, useEffect, useCallback } from "react";
 import { Attendance, Student } from "@/api/entities";
-import { useAppData } from "../layout";
+import { useAppData } from "./Layout.jsx";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
