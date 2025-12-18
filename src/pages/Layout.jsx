@@ -84,7 +84,7 @@ function PublicFooter() {
             <ul className="space-y-2 text-sm">
               <li><Link to={createPageUrl("Homepage")} className="text-slate-400 hover:text-white">Home</Link></li>
               <li><Link to={createPageUrl("Pricing")} className="text-slate-400 hover:text-white">💎 See Pricing</Link></li>
-              <li><Link to={createPageUrl("SchoolRegistration")} className="text-slate-400 hover:text-white">Start Free Trial</Link></li>
+              <li><Link to={createPageUrl("Homepage")} className="text-slate-400 hover:text-white">Start Free Trial</Link></li>
             </ul>
           </div>
           <div>

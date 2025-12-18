@@ -32,7 +32,8 @@ export default function PricingPage() {
     if (isLoggedIn) {
       navigate(createPageUrl("LicenseActivation"));
     } else {
-      navigate(createPageUrl("SchoolRegistration"));
+      // Unauthenticated users should start from homepage and use Google login
+      navigate(createPageUrl("Homepage"));
     }
   };
 
